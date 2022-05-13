@@ -13,16 +13,16 @@ For this reason I propose something along the lines of:
 | Post owner guidance  | This question does not appear to be about a specific programming problem, software algorithm, or tools commonly used by programmers. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another site on the Stack Exchange Network](https://stackexchange.com/sites). | 304 |
 | Privileged user guidance | This question does not appear to be about a specific programming problem, software development, or tools commonly used by programmers. You can edit the question so it’s [on-topic](/help/on-topic) for Stack Overflow. | 215 |
 
-This would make the close dialogue appear as:
+This would make the close dialogue appear as:\
 [![Close Dialogue with new closure reasons and no SF or SU close reasons][1]][1]
 
-Post Owners would see the following message:
+Post Owners would see the following message:\
 [![Post owner guidance][2]][2]
 
-Privileged Users would see the following:
+Privileged Users would see the following:\
 [![Privileged user guidance][3]][3]
 
-Anonymous Users and <3k users would see the following:
+Anonymous Users and <3k users would see the following:\
 [![Every user guidance][4]][4]
 
   [1]: https://i.stack.imgur.com/7OFaN.png
