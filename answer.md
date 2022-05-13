@@ -25,6 +25,25 @@ Privileged Users would see the following:\
 Anonymous Users and <3k users would see the following:\
 [![Every user guidance][4]][4]
 
+---
+
+This should be able to support the prior closure reasons as it represents the essence of why "general computing hardware and software" and "professional server or networking-related infrastructure administration" are off topic.
+
+It should also cover many of the custom close reasons currently being used. This new reasons could adequantly cover the following custom reasons:
+
+|Category| Approx # of Variants<sup>1</sup>| Approx # of posts (last 30 days)<sup>1</sup> |
+|:---|:---|:---|
+| ML/DL/AI theory and/or methodology | ~8 | ~230 |
+| Not about Programming as definied in \[help\] |~34| ~206 |
+| Webmasters | ~4 | ~47|
+| Mathmatics |~1| ~3|
+| DataScience |~1| ~3|
+
+
+
+<sup>1</sup> Values were aggregated with the highly accurate and extremely technical method of "by hand" from [question close stats](https://stackoverflow.com/tools/question-close-stats?daterange=last30days). Custom closure reasons are considered distinct unless they match spelling and punctuation _exactly_ so finding all variants and their associated amounts is non-trivial.
+
+
   [1]: https://i.stack.imgur.com/7OFaN.png
   [2]: https://i.stack.imgur.com/0beQGl.png
   [3]: https://i.stack.imgur.com/aN72hl.png
