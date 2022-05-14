@@ -44,7 +44,7 @@ It should also cover many of the custom close reasons currently being used. This
 <sup>1</sup> Values were aggregated with the highly accurate and extremely technical method of "by hand" from [question close stats](https://stackoverflow.com/tools/question-close-stats?daterange=last30days). Custom closure reasons are considered distinct unless they match spelling and punctuation _exactly_ so finding all variants and their associated amounts is non-trivial.
 
 
-  [1]: https://i.stack.imgur.com/74DH3.png
-  [2]: https://i.stack.imgur.com/XdqIkl.png
-  [3]: https://i.stack.imgur.com/UiOtkl.png
-  [4]: https://i.stack.imgur.com/j9gygl.png
+  [1]: ./builders/img_output/mock-close-dialogue-rendered.png
+  [2]: ./builders/img_output/mock-private-banner-rendered.png
+  [3]: ./builders/img_output/mock-privileged-banner-rendered.png
+  [4]: ./builders/img_output/mock-public-banner-rendered.png
