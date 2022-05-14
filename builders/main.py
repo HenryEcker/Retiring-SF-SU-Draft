@@ -40,8 +40,11 @@ def render_html(
             r'^<p>|</p>$',
             '',
             markdown.markdown(
-                # Replace relative routes with absolute routes before rendering
-                v.replace(r'](/', r'](https://stackoverflow.com/')
+                v
+                    # Replace relative routes with absolute routes
+                    .replace(r'](/', r'](https://stackoverflow.com/')
+                    # Replace $SiteName with Stack Overflow
+                    .replace('$SiteName', 'Stack Overflow')
             ),
         )
         for k, v in reasons.items()
@@ -71,7 +74,7 @@ def build_markdown_table(reasons: dict, output_path: str) -> None:
     with open(output_path, 'w', encoding='UTF-8') as f:
         f.write(
             '\n'.join([
-                '| Field | Text | Markdown Length |',
+                '| Field | (Rendered) Markdown | Markdown Length |',
                 '|:---|:---|:---|',
                 *(f'| {k} | {v} | {len(v)} |' for k, v in reasons.items())
             ])
@@ -113,7 +116,7 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-privileged-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 219 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
         ),
         "public_banner": RenderConfig(
             html_template=templates_folder / 'mock-public-banner.html',

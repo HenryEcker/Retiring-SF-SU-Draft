@@ -1,7 +1,7 @@
-| Field | Text | Markdown Length |
+| Field | (Rendered) Markdown | Markdown Length |
 |:---|:---|:---|
 | Brief Description | Not about programming or software development | 45 |
-| Usage guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). It may belong on [a different Stack Exchange site](https://stackexchange.com/sites) or other external site. | 258 |
-| Post notice close description | **Closed.** This question is not [about programming or software development](/help/closed-questions). It is not currently accepting answers. | 140 |
+| Usage guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). It may be on-topic on [another site on the Stack Exchange Network](https://stackexchange.com/sites), but cannot be answered on $SiteName. | 288 |
+| Post notice close description | **Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers. | 140 |
 | Post owner guidance | This question does not appear to be about a specific programming problem, software algorithm, or tools commonly used by programmers. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another site on the Stack Exchange Network](https://stackexchange.com/sites). | 304 |
-| Privileged user guidance | If you believe the question is about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic) help by editing the question to improve it or leave a comment explaining to the post author how to improve their question. If the question would be on-topic  on [another site in the Stack Exchange Network](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to get answers. | 465 |
+| Privileged user guidance | This question does not appear to be about a specific programming problem, software algorithm, or tools commonly used by programmers. If you believe the question is on-topic on [another site on the Stack Exchange Network](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to get answers. | 335 |
