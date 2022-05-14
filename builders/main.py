@@ -113,7 +113,7 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-privileged-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 219 + (pbm_px * 2))
         ),
         "public_banner": RenderConfig(
             html_template=templates_folder / 'mock-public-banner.html',
