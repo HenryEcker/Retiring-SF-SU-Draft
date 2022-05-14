@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privileged Banner</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Shared/stacks.css?v=047e88ccaeee">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7">
+    <style>
+        body, html {
+            padding: 0;
+            margin: 0;
+        }
+
+        .post-notice {
+            margin-top: 1px;
+            margin-left: 1px;
+            width: 728px;
+        }
+    </style>
+</head>
+<body>
+<!-- privileged banner -->
+<div>
+    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
+           role="status">
+        <div class="d-flex fd-column fw-nowrap">
+            <div class="d-flex fw-nowrap">
+                <div class="flex--item wmn0 fl1 lh-lg">
+                    <div class="flex--item fl1 lh-lg">
+                        {{ reasons["Post notice close description"] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my12 outline-none baw0 bb bc-powder-400">
+        <div class="d-flex fw-nowrap fc-black-600">
+            <div class="flex--item mr8">
+                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
+                     height="18" viewBox="0 0 18 18">
+                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
+                </svg>
+            </div>
+            <div class="flex--item lh-md">
+                <p class="mb0">
+                    {{ reasons['Privileged user guidance'] }}
+                </p>
+                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
+                                                class="relativetime">[Time] ago</span>
+                    by
+                    <a href="/null">Anon-User 1</a>,
+                    <a href="/null">Anon-User 2</a>,
+                    <a href="/null">Anon-User 3</a>.</p>
+
+                <p class="mb0 mt6 fs-fine fc-black-500">(Viewable by the post
+                    author and users with the close/reopen
+                    votes
+                    privilege)</p>
+            </div>
+        </div>
+        <div class="mt24 d-flex gsx gs8">
+            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
+               href="/edit">
+                Edit question
+            </a>
+        </div>
+    </aside>
+
+</div>
+</body>
+</html>

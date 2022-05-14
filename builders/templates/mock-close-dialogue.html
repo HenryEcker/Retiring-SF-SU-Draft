@@ -1,7 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SO Close Elements</title>
+    <title>Close Dialogue</title>
     <link rel="stylesheet" type="text/css"
           href="https://cdn.sstatic.net/Shared/stacks.css?v=047e88ccaeee">
     <link rel="stylesheet" type="text/css"
@@ -9,19 +10,9 @@
     <link rel="stylesheet" type="text/css"
           href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7">
     <style>
-        html, body {
-            padding: 40px;
-        }
-
-        #popup-close-question {
-            position: relative !important;
-            top: 0 !important;
-            left: 0 !important;
-        }
-
-        .post-notice {
-            width: 728px;
-            margin: 20px;
+        body, html {
+            padding: 0;
+            margin: 0;
         }
     </style>
 </head>
@@ -31,7 +22,7 @@
     <div id="popup-close-question" class="popup z-modal"
          data-controller="se-draggable" data-questionid="72223929"
          data-postid="72223929"
-         style="position: absolute; top: 427.5px; left: 40px; display: block; min-width: 800px;">
+         style="position: absolute; display: block; min-width: 800px;">
         <div class="popup-close"><a title="close this popup (or hit Esc)">×</a>
         </div>
 
@@ -242,144 +233,5 @@ You have X votes left today                            </span>
         </form>
     </div>
 </div>
-
-<div style="height:20px"></div>
-
-<!-- private banner -->
-<h1>Private</h1>
-<div>
-    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
-           role="status">
-        <div class="d-flex fd-column fw-nowrap">
-            <div class="d-flex fw-nowrap">
-                <div class="flex--item wmn0 fl1 lh-lg">
-                    <div class="flex--item fl1 lh-lg">
-                        {{ reasons["Post notice close description"] }}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my12 outline-none baw0 bb bc-powder-400">
-        <div class="d-flex fw-nowrap fc-black-600">
-            <div class="flex--item mr8">
-                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
-                     height="18" viewBox="0 0 18 18">
-                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
-                </svg>
-            </div>
-            <div class="flex--item lh-md">
-                <p class="mb0">
-                    {{ reasons['Post owner guidance'] }}
-                </p>
-                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
-                                                class="relativetime">[Time] ago</span>.
-                </p>
-                <p class="mb0 mt6 fs-fine fc-black-500">(Private feedback for
-                    you)</p>
-            </div>
-        </div>
-        <div class="mt24 d-flex gsx gs8">
-            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
-               href="/edit">
-                Edit question
-            </a>
-        </div>
-    </aside>
-
-</div>
-<!-- privileged banner -->
-<h1>Privileged Users</h1>
-<div>
-    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
-           role="status">
-        <div class="d-flex fd-column fw-nowrap">
-            <div class="d-flex fw-nowrap">
-                <div class="flex--item wmn0 fl1 lh-lg">
-                    <div class="flex--item fl1 lh-lg">
-                        {{ reasons["Post notice close description"] }}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my12 outline-none baw0 bb bc-powder-400">
-        <div class="d-flex fw-nowrap fc-black-600">
-            <div class="flex--item mr8">
-                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
-                     height="18" viewBox="0 0 18 18">
-                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
-                </svg>
-            </div>
-            <div class="flex--item lh-md">
-                <p class="mb0">
-                    {{ reasons['Privileged user guidance'] }}
-                </p>
-                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
-                                                class="relativetime">[Time] ago</span>
-                    by
-                    <a href="/null">Anon-User 1</a>,
-                    <a href="/null">Anon-User 2</a>,
-                    <a href="/null">Anon-User 3</a>.</p>
-
-                <p class="mb0 mt6 fs-fine fc-black-500">(Viewable by the post
-                    author and users with the close/reopen
-                    votes
-                    privilege)</p>
-            </div>
-        </div>
-        <div class="mt24 d-flex gsx gs8">
-            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
-               href="/edit">
-                Edit question
-            </a>
-        </div>
-    </aside>
-
-</div>
-
-<!-- Anonymous Users -->
-<h1>Anonymous Users</h1>
-<div>
-    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
-           role="status">
-        <div class="d-flex fd-column fw-nowrap">
-            <div class="d-flex fw-nowrap">
-                <div class="flex--item wmn0 fl1 lh-lg">
-                    <div class="flex--item fl1 lh-lg">
-                        {{ reasons["Post notice close description"] }}
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="my12 outline-none baw0 bb bc-powder-400">
-        <div class="d-flex fw-nowrap fc-black-600">
-            <div class="flex--item mr8">
-                <svg aria-hidden="true" class="svg-icon iconLightbulb"
-                     width="18" height="18" viewBox="0 0 18 18">
-                    <path d="M15 6.38A6.48 6.48 0 0 0 7.78.04h-.02A6.49 6.49 0 0 0 2.05 5.6a6.31 6.31 0 0 0 2.39 5.75c.49.39.76.93.76 1.5v.24c0 1.07.89 1.9 1.92 1.9h2.75c1.04 0 1.92-.83 1.92-1.9v-.2c0-.6.26-1.15.7-1.48A6.32 6.32 0 0 0 15 6.37ZM4.03 5.85A4.49 4.49 0 0 1 8 2.02a4.48 4.48 0 0 1 5 4.36 4.3 4.3 0 0 1-1.72 3.44c-.98.74-1.5 1.9-1.5 3.08v.1H7.2v-.14c0-1.23-.6-2.34-1.53-3.07a4.32 4.32 0 0 1-1.64-3.94ZM10 18a1 1 0 0 0 0-2H7a1 1 0 1 0 0 2h3Z"></path>
-                </svg>
-            </div>
-            <div class="flex--item lh-md">
-                <p class="mb0">
-                    <b>Want to improve this question?</b> Update the question so
-                    it's <a
-                        href="https://stackoverflow.com/help/on-topic">on-topic</a>
-                    for Stack Overflow.
-                </p>
-                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
-                                                class="relativetime">[Time] ago</span>.
-                </p>
-
-            </div>
-        </div>
-        <div class="mt24 d-flex gsx gs8">
-            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
-               href="/edit">
-                Improve this question
-            </a>
-        </div>
-    </aside>
-
-</div>
-
 </body>
 </html>

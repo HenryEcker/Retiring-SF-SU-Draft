@@ -1,9 +1,20 @@
 import json
 import re
+from dataclasses import dataclass
+from pathlib import Path
 from pprint import pprint
+from typing import Tuple
 
 import markdown
+from html2image import Html2Image
 from jinja2 import Template
+
+
+@dataclass
+class RenderConfig:
+    html_template: Path
+    rendered_html: Path
+    output_img_size: Tuple[int, int]
 
 
 def load_and_validate_reasons(file_path: str) -> dict:
@@ -19,8 +30,9 @@ def load_and_validate_reasons(file_path: str) -> dict:
     return reasons
 
 
-def render_template(
-        reasons: dict, template_path: str, output_path: str
+def render_html(
+        reasons: dict,
+        configs: dict[str, RenderConfig]
 ) -> None:
     reasons = {
         k: re.sub(
@@ -34,11 +46,25 @@ def render_template(
         )
         for k, v in reasons.items()
     }
-    with open(template_path, encoding='UTF-8') as f:
-        t = Template(f.read())
 
-    with open(output_path, 'w', encoding='UTF-8') as f:
-        f.write(t.render(reasons=reasons))
+    for _, config in configs.items():
+        with open(config.html_template, encoding='UTF-8') as f:
+            t = Template(f.read())
+
+        with open(config.rendered_html, 'w', encoding='UTF-8') as f:
+            f.write(t.render(reasons=reasons))
+
+
+def render_img(
+        hti: Html2Image,
+        configs: dict[str, RenderConfig]
+):
+    for _, config in configs.items():
+        hti.screenshot(
+            html_file=str(config.rendered_html),
+            save_as=str(config.rendered_html.with_suffix('.png').name),
+            size=config.output_img_size
+        )
 
 
 def build_markdown_table(reasons: dict, output_path: str) -> None:
@@ -55,13 +81,59 @@ def build_markdown_table(reasons: dict, output_path: str) -> None:
 def main() -> None:
     reasons = load_and_validate_reasons('./reasons.json')
     pprint(reasons)
-    render_template(
-        reasons,
-        template_path='templates/mocks-template.html',
-        output_path='output/new-html-mocks.html'
+
+    # Make Folders
+    templates_folder = Path('./templates')
+    templates_folder.mkdir(exist_ok=True)
+    html_output_folder = Path('./html-output')
+    html_output_folder.mkdir(exist_ok=True)
+    md_output_folder = Path('./md-output')
+    md_output_folder.mkdir(exist_ok=True)
+
+    # Render Config
+    pbm_px = 16 + 1 + 1
+    configs = {
+        "close_dialogue": RenderConfig(
+            html_template=templates_folder / 'mock-close-dialogue.html',
+            rendered_html=(
+                    html_output_folder / 'mock-close-dialogue-rendered.html'
+            ),
+            output_img_size=(800, 567)
+        ),
+
+        "private_banner": RenderConfig(
+            html_template=templates_folder / 'mock-private-banner.html',
+            rendered_html=(
+                    html_output_folder / 'mock-private-banner-rendered.html'
+            ),
+            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
+        ),
+        "privileged_banner": RenderConfig(
+            html_template=templates_folder / 'mock-privileged-banner.html',
+            rendered_html=(
+                    html_output_folder / 'mock-privileged-banner-rendered.html'
+            ),
+            output_img_size=(694 + (pbm_px * 2), 185 + (pbm_px * 2))
+        ),
+        "public_banner": RenderConfig(
+            html_template=templates_folder / 'mock-public-banner.html',
+            rendered_html=(
+                    html_output_folder / 'mock-public-banner-rendered.html'
+            ),
+            output_img_size=(694 + (pbm_px * 2), 148 + (pbm_px * 2))
+        )
+    }
+    # Render Templates
+    render_html(reasons, configs=configs)
+
+    # Render Rendered HTML as imgs
+    render_img(
+        hti=Html2Image(output_path=Path('./img_output/'), size=(3840, 2160)),
+        configs=configs
     )
 
-    build_markdown_table(reasons, output_path='output/table.md')
+    # Build Markdown Table
+    build_markdown_table(reasons, output_path='md-output/table.md')
 
 
 if __name__ == '__main__':
