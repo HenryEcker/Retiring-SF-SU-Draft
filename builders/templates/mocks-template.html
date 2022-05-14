@@ -1,0 +1,385 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SO Close Elements</title>
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Shared/stacks.css?v=047e88ccaeee">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=9f3012e164b7">
+    <link rel="stylesheet" type="text/css"
+          href="https://cdn.sstatic.net/Shared/Channels/channels.css?v=f039f0b977b7">
+    <style>
+        html, body {
+            padding: 40px;
+        }
+
+        #popup-close-question {
+            position: relative !important;
+            top: 0 !important;
+            left: 0 !important;
+        }
+
+        .post-notice {
+            width: 728px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- Close Dialogue -->
+<div class="js-menu-popup-container">
+    <div id="popup-close-question" class="popup z-modal"
+         data-controller="se-draggable" data-questionid="72223929"
+         data-postid="72223929"
+         style="position: absolute; top: 427.5px; left: 40px; display: block; min-width: 800px;">
+        <div class="popup-close"><a title="close this popup (or hit Esc)">×</a>
+        </div>
+
+        <form id="close-question-form" class="mn4 p4">
+
+            <nav class="s-breadcrumbs mb6 sm:mb2 js-breadcrumbs">
+                <div class="s-breadcrumbs--item"><span
+                        class="s-breadcrumbs--link c-pointer" tabindex="0"
+                        role="button">Closing</span>
+                    <svg class="s-breadcrumbs--divider d-none svg-icon iconArrowRightAltSm"
+                         aria-hidden="true"
+                         width="13" height="14" viewBox="0 0 13 14">
+                        <path d="m4.38 4.62 1.24-1.24L9.24 7l-3.62 3.62-1.24-1.24L6.76 7 4.38 4.62Z"></path>
+                    </svg>
+                </div>
+            </nav>
+
+            <h2 class="popup-title-container c-move fs-title"
+                data-se-draggable-target="handle">
+                <span class="popup-title">Why isn’t this question suited for Stack Overflow?</span>
+            </h2>
+
+            <div class="site-specific-pane popup-subpane dno popup-active-pane"
+                 data-title="Why isn’t this question suited for Stack Overflow?"
+                 data-breadcrumb="Community specific"
+                 data-subpane-name="site-specific" style="display: block;">
+                <ul class="action-list">
+                    <li class="py12 js-popup-radio-action action-selected">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-4-"
+                                       value="4" data-other-comment-id=""
+                                       data-subpane-name="" checked>
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-block s-label"
+                                       for="siteSpecificCloseReasonId-4-">
+
+                                    <span class="js-action-name">
+                                        {{ reasons['Brief Description'] }}
+                                    </span>
+                                    <p class="s-description">
+                                        {{ reasons['Usage guidance'] }}
+                                    </p>
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="py12 js-popup-radio-action">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-16-"
+                                       value="16" data-other-comment-id=""
+                                       data-subpane-name="">
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-block s-label"
+                                       for="siteSpecificCloseReasonId-16-">
+
+                                    <span class="js-action-name">Seeking recommendations for books, tools, software libraries, and more</span>
+                                    <p class="s-description">This question is
+                                        likely to lead to opinion-based
+                                        answers.</p>
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="py12 js-popup-radio-action">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-13-"
+                                       value="13" data-other-comment-id=""
+                                       data-subpane-name="">
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-block s-label"
+                                       for="siteSpecificCloseReasonId-13-">
+
+                                    <span class="js-action-name">Needs debugging details</span>
+                                    <p class="s-description">The question should
+                                        be updated to include desired behavior,
+                                        a specific problem or error, and the
+                                        shortest code necessary to reproduce the
+                                        problem.</p>
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="py12 js-popup-radio-action">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-11-"
+                                       value="11" data-other-comment-id=""
+                                       data-subpane-name="">
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-block s-label"
+                                       for="siteSpecificCloseReasonId-11-">
+
+                                    <span class="js-action-name">Not reproducible or was caused by a typo</span>
+                                    <p class="s-description">While similar
+                                        questions may be <a
+                                                href="https://stackoverflow.com/help/on-topic"
+                                                target="_blank">on-topic</a>
+                                        here, this one was resolved in a way
+                                        less likely to help future readers.</p>
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="py12 js-popup-radio-action">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-2-"
+                                       value="2" data-other-comment-id=""
+                                       data-subpane-name="migration">
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-block s-label"
+                                       for="siteSpecificCloseReasonId-2-">
+
+                                    <span class="fw-normal js-action-name">This question belongs on another site in the Stack Exchange network</span>
+                                </label>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="py12 js-popup-radio-action">
+                        <div class="d-flex gs8 gsx">
+                            <div class="flex--item">
+                                <input type="radio" class="s-radio"
+                                       name="siteSpecificCloseReasonId"
+                                       id="siteSpecificCloseReasonId-other"
+                                       value="3"
+                                       data-controller="s-expandable-control"
+                                       aria-controls="site-specific-comment"
+                                       aria-expanded="false">
+                            </div>
+                            <div class="flex--item fl1">
+                                <label class="d-flex ai-center s-label fw-normal"
+                                       for="siteSpecificCloseReasonId-other">
+                                    <span class="fw-bold js-action-name">Other - add a comment</span>
+                                    <span data-controller="s-tooltip"
+                                          data-s-tooltip-placement="right"
+                                          aria-describedby="--stacks-s-tooltip-395moaqf"><svg
+                                            aria-hidden="true"
+                                            class="d-block mx4 my2 svg-icon iconHelpSm"
+                                            width="14" height="14"
+                                            viewBox="0 0 14 14"><path
+                                            d="M7 1C3.74 1 1 3.77 1 7c0 3.26 2.77 6 6 6 3.27 0 6-2.73 6-6s-2.73-6-6-6Zm1.06 9.06c-.02.63-.48 1.02-1.1 1-.57-.02-1.03-.43-1.01-1.06.02-.63.5-1.04 1.08-1.02.6.02 1.05.45 1.03 1.08Zm.73-3.07-.47.3c-.2.15-.36.36-.44.6a3.6 3.6 0 0 0-.08.65c0 .04-.03.14-.16.14h-1.4c-.14 0-.16-.09-.16-.13-.01-.5.11-.99.36-1.42A4.6 4.6 0 0 1 7.7 6.07c.15-.1.21-.21.3-.33.18-.2.28-.47.28-.74.01-.67-.53-1.14-1.18-1.14-.9 0-1.18.7-1.18 1.46H4.2c0-1.17.31-1.92.98-2.36a3.5 3.5 0 0 1 1.83-.44c.88 0 1.58.16 2.2.62.58.42.88 1.02.88 1.82 0 .5-.17.9-.43 1.24-.15.2-.44.47-.86.79h-.01Z"></path></svg></span>
+                                    <div id="--stacks-s-tooltip-395moaqf"
+                                         class="s-popover s-popover__tooltip pe-none"
+                                         aria-hidden="true" role="tooltip">This
+                                        comment will be shown publicly on the
+                                        question. The post author will be
+                                        notified privately to review community
+                                        feedback.
+                                        <div class="s-popover--arrow"></div>
+                                    </div>
+                                </label>
+                                <div class="s-expandable"
+                                     id="site-specific-comment">
+                                    <div class="s-expandable--content">
+                                        <div class="d-flex fd-column">
+                                            <textarea class="s-textarea mt8"
+                                                      name="siteSpecificOtherText"
+                                                      placeholder="E.g. Looks like this question is about typesetting systems and would be a good fit for TeX-LaTex Stack Exchange.">I’m voting to close this question because </textarea>
+                                            <input type="hidden"
+                                                   name="originalSiteSpecificOtherText"
+                                                   value="I’m voting to close this question because ">
+                                            <div class="text-counter"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+            <div class="popup-actions">
+                <div class="d-flex gs8 gsx ai-center">
+                    <button class="s-btn s-btn__primary flex--item js-popup-submit"
+                            style="cursor: pointer;">
+                        Vote to close
+                    </button>
+                    <button type="button"
+                            class="s-btn flex--item js-popup-cancel js-popup-close d-none">
+                        Cancel
+                    </button>
+                    <button type="button"
+                            class="s-btn flex--item js-popup-back">Back
+                    </button>
+                    <span class="flex--item ml-auto fc-light">
+You have X votes left today                            </span>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div style="height:20px"></div>
+
+<!-- private banner -->
+<h1>Private</h1>
+<div>
+    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
+           role="status">
+        <div class="d-flex fd-column fw-nowrap">
+            <div class="d-flex fw-nowrap">
+                <div class="flex--item wmn0 fl1 lh-lg">
+                    <div class="flex--item fl1 lh-lg">
+                        {{ reasons["Post notice close description"] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my12 outline-none baw0 bb bc-powder-400">
+        <div class="d-flex fw-nowrap fc-black-600">
+            <div class="flex--item mr8">
+                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
+                     height="18" viewBox="0 0 18 18">
+                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
+                </svg>
+            </div>
+            <div class="flex--item lh-md">
+                <p class="mb0">
+                    {{ reasons['Post owner guidance'] }}
+                </p>
+                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
+                                                class="relativetime">[Time] ago</span>.
+                </p>
+                <p class="mb0 mt6 fs-fine fc-black-500">(Private feedback for
+                    you)</p>
+            </div>
+        </div>
+        <div class="mt24 d-flex gsx gs8">
+            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
+               href="/edit">
+                Edit question
+            </a>
+        </div>
+    </aside>
+
+</div>
+<!-- privileged banner -->
+<h1>Privileged Users</h1>
+<div>
+    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
+           role="status">
+        <div class="d-flex fd-column fw-nowrap">
+            <div class="d-flex fw-nowrap">
+                <div class="flex--item wmn0 fl1 lh-lg">
+                    <div class="flex--item fl1 lh-lg">
+                        {{ reasons["Post notice close description"] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my12 outline-none baw0 bb bc-powder-400">
+        <div class="d-flex fw-nowrap fc-black-600">
+            <div class="flex--item mr8">
+                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
+                     height="18" viewBox="0 0 18 18">
+                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
+                </svg>
+            </div>
+            <div class="flex--item lh-md">
+                <p class="mb0">
+                    {{ reasons['Privileged user guidance'] }}
+                </p>
+                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
+                                                class="relativetime">[Time] ago</span>
+                    by
+                    <a href="/null">Anon-User 1</a>,
+                    <a href="/null">Anon-User 2</a>,
+                    <a href="/null">Anon-User 3</a>.</p>
+
+                <p class="mb0 mt6 fs-fine fc-black-500">(Viewable by the post
+                    author and users with the close/reopen
+                    votes
+                    privilege)</p>
+            </div>
+        </div>
+        <div class="mt24 d-flex gsx gs8">
+            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
+               href="/edit">
+                Edit question
+            </a>
+        </div>
+    </aside>
+
+</div>
+
+<!-- Anonymous Users -->
+<h1>Anonymous Users</h1>
+<div>
+    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
+           role="status">
+        <div class="d-flex fd-column fw-nowrap">
+            <div class="d-flex fw-nowrap">
+                <div class="flex--item wmn0 fl1 lh-lg">
+                    <div class="flex--item fl1 lh-lg">
+                        {{ reasons["Post notice close description"] }}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my12 outline-none baw0 bb bc-powder-400">
+        <div class="d-flex fw-nowrap fc-black-600">
+            <div class="flex--item mr8">
+                <svg aria-hidden="true" class="svg-icon iconLightbulb"
+                     width="18" height="18" viewBox="0 0 18 18">
+                    <path d="M15 6.38A6.48 6.48 0 0 0 7.78.04h-.02A6.49 6.49 0 0 0 2.05 5.6a6.31 6.31 0 0 0 2.39 5.75c.49.39.76.93.76 1.5v.24c0 1.07.89 1.9 1.92 1.9h2.75c1.04 0 1.92-.83 1.92-1.9v-.2c0-.6.26-1.15.7-1.48A6.32 6.32 0 0 0 15 6.37ZM4.03 5.85A4.49 4.49 0 0 1 8 2.02a4.48 4.48 0 0 1 5 4.36 4.3 4.3 0 0 1-1.72 3.44c-.98.74-1.5 1.9-1.5 3.08v.1H7.2v-.14c0-1.23-.6-2.34-1.53-3.07a4.32 4.32 0 0 1-1.64-3.94ZM10 18a1 1 0 0 0 0-2H7a1 1 0 1 0 0 2h3Z"></path>
+                </svg>
+            </div>
+            <div class="flex--item lh-md">
+                <p class="mb0">
+                    <b>Want to improve this question?</b> Update the question so
+                    it's <a
+                        href="https://stackoverflow.com/help/on-topic">on-topic</a>
+                    for Stack Overflow.
+                </p>
+                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
+                                                class="relativetime">[Time] ago</span>.
+                </p>
+
+            </div>
+        </div>
+        <div class="mt24 d-flex gsx gs8">
+            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
+               href="/edit">
+                Improve this question
+            </a>
+        </div>
+    </aside>
+
+</div>
+
+</body>
+</html>
