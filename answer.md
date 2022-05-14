@@ -29,7 +29,7 @@ Anonymous Users and <3k users would see the following:\
 
 This should be able to support the prior closure reasons as it represents the essence of why "general computing hardware and software" and "professional server or networking-related infrastructure administration" are off topic.
 
-It should also cover many of the custom close reasons currently being used. This new reasons could adequantly cover the following custom reasons:
+It should also cover many of the custom close reasons currently being used. This new reason could adequantly cover the following custom reasons as well:
 
 |Category| Approx # of Variants<sup>1</sup>| Approx # of posts (last 30 days)<sup>1</sup> |
 |:---|:---|:---|
