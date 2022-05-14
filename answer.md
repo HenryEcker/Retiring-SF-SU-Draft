@@ -1,6 +1,6 @@
 Personally, as much as I appreciate the idea of giving as detailed feedback as possible, I think giving lists of options is always going to result in either overwhelming the asker or sending incorrect referrals.
 
-In this specific case, I'd prefer to give a general off-topic for Stack Overflow reason, and provide resources for how to correctly determine which site they _should_ ask on.
+In this specific case, I'd prefer to give a general not about programming or development reason, and provide the general list of sites rather than trying to enumerate every possible location they could ask for every type of question (especially given the 500-character limit). I've instead chosen to link to [on-topic](https://stackoverflow.com/help/on-topic) which already covers where to ask many different types of questions. This is inline with our existing closure reasons, and also with many other communities network wide.
 
 
 For this reason I propose something along the lines of:
