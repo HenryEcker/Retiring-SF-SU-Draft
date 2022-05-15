@@ -1,6 +1,6 @@
 Personally, as much as I appreciate the idea of giving as detailed feedback as possible, I think giving lists of options is always going to result in either overwhelming the asker or provide incorrect referrals.
 
-In this specific case, I'd prefer to have a general not about programming or development closure reason, and provide the general list of sites rather than trying to enumerate every possible location they could ask for every type of question (especially given the 500-character limit). I've instead chosen to link to [on-topic](https://stackoverflow.com/help/on-topic) which already covers where to ask many types of questions. This practice is also consistent with our existing closure reasons, and many other communities network wide.
+In this specific case, I'd prefer to have a general not about programming or development closure reason, and provide the general list of sites rather than trying to enumerate every possible location for every type of question (especially given the 500-character limit). I've instead chosen to link to [on-topic](https://stackoverflow.com/help/on-topic) which already covers where to ask many types of questions. This practice is also consistent with our existing closure reasons and many other communities network wide.
 
 
 For this reason I propose something along the lines of:
