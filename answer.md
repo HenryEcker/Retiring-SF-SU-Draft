@@ -5,7 +5,7 @@ Personally, as much as I appreciate the idea of giving as detailed feedback as p
 For this reason, I'd prefer to have a general "not about programming or development" closure reason, and provide the general list of sites rather than trying to enumerate every possible location for every type of question. I've instead chosen to link to [on-topic](https://stackoverflow.com/help/on-topic) which already covers where to ask many types of questions. This practice is also consistent with our existing closure reasons and the closure reasons of many other communities network wide.
 
 
-This is the proposed guidance:
+This is my proposal:
 
 <!-- 
     PLEASE DO NOT EDIT THIS TABLE 
@@ -22,7 +22,7 @@ If there are issues that need to be addressed please leave a comment so the char
 
 ---
 
-As I was working on these reasons, I realised it was dificult for me to conceptualise what these reasons would feel like in situ so I have created a mock closure dialogue and some mock close banners.
+As I was working on this, I realised it was difficult for me to conceptualise what these reasons would feel like in situ, so I have created a mock closure dialogue and some mock close banners.
 
 The close dialogue would look something like:\
 [![Close Dialogue with new closure reasons and no SF or SU close reasons][1]][1]
@@ -57,7 +57,7 @@ It should also cover many of the custom close reasons currently being used. For 
 
 ---
 
-I would like to acknowledge that these reasons are the derivied from many different users network wide. My hope was to create reasons with guidance and links that were consistent with our existing reasons, help center, and MSO. I also pulled the current community-specific closure reasons for every community on the Stack Exchange network to see how they handle off-topic questions on their relative sites. My hope is not that this guidance is revolutionary or groundbreaking, but rather something that is familiar and can be easily adopted by our community.
+I would like to acknowledge that these reasons are the derived from many different users network wide. My hope was to create reasons with guidance and links that were consistent with our existing reasons, help center, and MSO. I also pulled the current community-specific closure reasons for every community on the Stack Exchange network to see how they handle off-topic questions on their relative sites. My hope is not that this guidance is revolutionary or groundbreaking, but rather something that is familiar and can be easily adopted by our community.
 
 A special thanks to [Oleg Valter](https://meta.stackoverflow.com/users/11407695) and [Ryan M](https://meta.stackoverflow.com/users/208273) for their assistance in getting this proposal into somewhat reasonable form, as well as everyone who participated in the initial [close reasons and guidance project](https://meta.stackoverflow.com/q/417475/15497888) and in [Overhauling our community's closure reasons and guidance](https://meta.stackoverflow.com/q/417008/15497888).
 
