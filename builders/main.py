@@ -17,9 +17,17 @@ class RenderConfig:
     output_img_size: Tuple[int, int]
 
 
-def load_and_validate_reasons(file_path: str) -> dict:
-    with open(file_path, encoding='UTF-8') as f:
-        reasons = json.loads(f.read())
+def build_and_validate_reasons() -> dict:
+    topic = "[a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic)"
+    another_site = "[another Stack Exchange site](https://stackexchange.com/sites)"
+
+    reasons = {
+        "Brief Description": f"Not about programming or software development",
+        "Usage guidance": f"This question does not appear to be about {topic}. It _may_ be able to be answered on {another_site} but is not on-topic for $SiteName.",
+        "Post notice close description": f"**Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers.",
+        "Post owner guidance": f"This question does not appear to be about {topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.",
+        "Privileged user guidance": f"This question does not appear to be about {topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered."
+    }
 
     # Ensure reasons are correct length
     assert len(reasons['Brief Description']) <= 100
@@ -82,7 +90,7 @@ def build_markdown_table(reasons: dict, output_path: str) -> None:
 
 
 def main() -> None:
-    reasons = load_and_validate_reasons('./reasons.json')
+    reasons = build_and_validate_reasons()
     pprint(reasons)
 
     # Make Folders
