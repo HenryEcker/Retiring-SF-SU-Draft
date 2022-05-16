@@ -38,16 +38,16 @@ Anonymous Users and users with less than 3000 reputation would see the following
 
 ---
 
-This should be able to support the prior closure reasons as it represents the essence of why "general computing hardware and software" and "professional server or networking-related infrastructure administration" are off topic.
+This should be able to support the prior closure reasons as it represents the essence of why "general computing hardware and software" and "professional server or networking-related infrastructure administration" are off-topic.
 
 It should also cover many of the custom close reasons currently being used. For Example:
 
 |Category| Approx # of Variants<sup>1</sup>| Approx # of posts (last 30 days)<sup>1</sup> |
 |:---|:---|:---|
 | ML/DL/AI theory and/or methodology | ~8 | ~230 |
-| Not about Programming as definied in \[help\] |~34| ~206 |
+| Not about Programming as defined in \[help\] |~34| ~206 |
 | Webmasters | ~4 | ~47|
-| Mathmatics |~1| ~3|
+| Mathematics |~1| ~3|
 | DataScience |~1| ~3|
 
 
@@ -57,7 +57,7 @@ It should also cover many of the custom close reasons currently being used. For 
 
 ---
 
-I would like to acknowledge that these reasons are the derived from many different users network wide. My hope was to create reasons with guidance and links that were consistent with our existing reasons, help center, and MSO. I also pulled the current community-specific closure reasons for every community on the Stack Exchange network to see how they handle off-topic questions on their relative sites. My hope is not that this guidance is revolutionary or groundbreaking, but rather something that is familiar and can be easily adopted by our community.
+I would like to acknowledge that these reasons are the derived from many users network wide. My hope was to create reasons with guidance and links that were consistent with our existing reasons, help center, and MSO. I also pulled the current community-specific closure reasons for every community on the Stack Exchange network to see how they handle off-topic questions on their relative sites. My hope is not that this guidance is revolutionary or groundbreaking, but rather something that is familiar and can be easily adopted by our community.
 
 A special thanks to [Oleg Valter](https://meta.stackoverflow.com/users/11407695) and [Ryan M](https://meta.stackoverflow.com/users/208273) for their assistance in getting this proposal into somewhat reasonable form, as well as everyone who participated in the initial [close reasons and guidance project](https://meta.stackoverflow.com/q/417475/15497888) and in [Overhauling our community's closure reasons and guidance](https://meta.stackoverflow.com/q/417008/15497888).
 
