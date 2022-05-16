@@ -5,7 +5,7 @@ Personally, as much as I appreciate the idea of giving as detailed feedback as p
 For this reason, I'd prefer to have a general "not about programming or development" closure reason, and provide the general list of sites rather than trying to enumerate every possible location for every type of question. I've instead chosen to link to [on-topic](https://stackoverflow.com/help/on-topic) which already covers where to ask many types of questions. This practice is also consistent with our existing closure reasons and the closure reasons of many other communities network wide.
 
 
-This is the propsed guidance:
+This is the proposed guidance:
 
 <!-- 
     PLEASE DO NOT EDIT THIS TABLE 
@@ -17,7 +17,7 @@ If there are issues that need to be addressed please leave a comment so the char
 | Brief Description | Not about programming or software development | 45 |
 | Usage guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). It _may_ be able to be answered on [another Stack Exchange site](https://stackexchange.com/sites) but is not on-topic for $SiteName. | 283 |
 | Post notice close description | **Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers. | 140 |
-| Post owner guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another Stack Exchange site](https://stackexchange.com/sites), but be sure to read the on-topic page for the site you select prior to posting. | 387 |
+| Post owner guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another Stack Exchange site](https://stackexchange.com/sites), but be sure to read the on-topic page for the site you choose before posting. | 385 |
 | Privileged user guidance | This question does not appear to be about [a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic). If you believe the question is on-topic on [another site on the Stack Exchange Network](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to be answered. | 353 |
 
 ---
@@ -59,7 +59,7 @@ It should also cover many of the custom close reasons currently being used. For 
 
 I would like to acknowledge that these reasons are the derivied from many different users network wide. My hope was to create reasons with guidance and links that were consistent with our existing reasons, help center, and MSO. I also pulled the current community-specific closure reasons for every community on the Stack Exchange network to see how they handle off-topic questions on their relative sites. My hope is not that this guidance is revolutionary or groundbreaking, but rather something that is familiar and can be easily adopted by our community.
 
-A special thanks to [Oleg Valter](https://meta.stackoverflow.com/users/11407695) and [Ryan M](https://meta.stackoverflow.com/users/208273) for their assistance in getting this proposal into somewhat reasonable form, as well as everyone who participated in the initial [close reasons and guidance project](https://meta.stackoverflow.com/q/417475/15497888).
+A special thanks to [Oleg Valter](https://meta.stackoverflow.com/users/11407695) and [Ryan M](https://meta.stackoverflow.com/users/208273) for their assistance in getting this proposal into somewhat reasonable form, as well as everyone who participated in the initial [close reasons and guidance project](https://meta.stackoverflow.com/q/417475/15497888) and in [Overhauling our community's closure reasons and guidance](https://meta.stackoverflow.com/q/417008/15497888).
 
 
   [1]: ./builders/img_output/mock-close-dialogue-rendered.png
