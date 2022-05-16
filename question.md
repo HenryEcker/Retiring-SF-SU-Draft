@@ -1,11 +1,11 @@
-# Retiring Sever Fault and Super User Closure Reasons
+# Retiring Server Fault and Super User Closure Reasons
 
 
-Thank you to everyone who participated in [Overhauling our community's closure reasons and guidance](https://meta.stackoverflow.com/q/417008).
+Thank you to everyone who participated in [Overhauling our community's closure reasons and guidance](https://meta.stackoverflow.com/q/417008/15497888).
 
 It appears that we have quite a few ideas about closure reasons we'd like to add as well as updating the wording for a few of the existing reasons. As mentioned in the previous post, we are currently using __all 5__ of our Community Specific Closure Reason slots.
 
-In order to move forward and potentially add a new reason, we first need to free up slots. I propose we retire our (2) specific off-topic closure reasons, specifically, Server Fault and Super User in favour of a more general one.
+In order to move forward with this process of revising our existing reasons and potentially add a new one, we first need to free up slots. I propose we retire our (2) specific off-topic closure reasons, specifically, Server Fault and Super User in favour of a more general one.
 
 Please review the existing proposals:
 
