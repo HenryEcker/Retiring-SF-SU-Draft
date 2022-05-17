@@ -14,11 +14,11 @@ If there are issues that need to be addressed please leave a comment so the char
 -->
 | Field | (Rendered) Markdown | Markdown Length |
 |:---|:---|:---|
-| Brief Description | Not a practical, answerable problem unique to software development | 66 |
-| Usage guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools commonly used by programmers](/help/on-topic). | 161 |
-| Post notice close description | **Closed.** This question is [not a practical, answerable problem unique to software development](/help/closed-questions). It is not currently accepting answers. | 161 |
-| Post owner guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools commonly used by programmers](/help/on-topic). You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another Stack Exchange site](https://stackexchange.com/sites), but be sure to read the on-topic page for the site you choose before posting. | 396 |
-| Privileged user guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools commonly used by programmers](/help/on-topic). If you believe the question is on-topic on [another Stack Exchange site](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to be answered. | 349 |
+| Brief Description | Not about programming or software development | 45 |
+| Usage guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). | 162 |
+| Post notice close description | **Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers. | 140 |
+| Post owner guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another Stack Exchange site](https://stackexchange.com/sites), but be sure to read the on-topic page for the site you choose before posting. | 397 |
+| Privileged user guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). If you believe the question is on-topic on [another Stack Exchange site](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to be answered. | 350 |
 
 ---
 

@@ -17,8 +17,8 @@ class RenderConfig:
 
 
 def build_and_validate_reasons() -> dict:
-    reason = 'Not a practical, answerable problem unique to software development'
-    topic = 'This question does not appear to be about [a specific programming problem, a software algorithm, or software tools commonly used by programmers](/help/on-topic)'
+    reason = 'Not about programming or software development'
+    topic = 'This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic)'
     another_site = '[another Stack Exchange site](https://stackexchange.com/sites)'
 
     reasons = {
@@ -117,21 +117,21 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-private-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 223 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
         ),
         'privileged_banner': RenderConfig(
             html_template=templates_folder / 'mock-privileged-banner.html',
             rendered_html=(
                     html_output_folder / 'mock-privileged-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 223 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
         ),
         'public_banner': RenderConfig(
             html_template=templates_folder / 'mock-public-banner.html',
             rendered_html=(
                     html_output_folder / 'mock-public-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 169 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 148 + (pbm_px * 2))
         )
     }
     # Render Templates
