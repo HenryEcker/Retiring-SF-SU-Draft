@@ -17,15 +17,16 @@ class RenderConfig:
 
 
 def build_and_validate_reasons() -> dict:
-    topic = '[a specific programming problem, software algorithm, or tools commonly used by programmers](/help/on-topic)'
+    reason = 'Not a practical, answerable problem unique to software development'
+    topic = 'This question does not appear to be about [a specific programming problem, a software algorithm, or software tools commonly used by programmers](/help/on-topic)'
     another_site = '[another Stack Exchange site](https://stackexchange.com/sites)'
 
     reasons = {
-        'Brief Description': f'Not about programming or software development',
-        'Usage guidance': f'This question does not appear to be about {topic}. It _may_ be able to be answered on {another_site} but is not on-topic for $SiteName.',
-        'Post notice close description': f'**Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers.',
-        'Post owner guidance': f'This question does not appear to be about {topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
-        'Privileged user guidance': f'This question does not appear to be about {topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
+        'Brief Description': reason,
+        'Usage guidance': f'{topic}.',
+        'Post notice close description': f'**Closed.** This question is [{reason.lower()}](/help/closed-questions). It is not currently accepting answers.',
+        'Post owner guidance': f'{topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
+        'Privileged user guidance': f'{topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
     }
 
     # Ensure reasons are correct length
@@ -108,7 +109,7 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-close-dialogue-rendered.html'
             ),
-            output_img_size=(800, 567)
+            output_img_size=(766 + (pbm_px * 2), 533 + (pbm_px * 2))
         ),
 
         'private_banner': RenderConfig(
@@ -116,21 +117,21 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-private-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 223 + (pbm_px * 2))
         ),
         'privileged_banner': RenderConfig(
             html_template=templates_folder / 'mock-privileged-banner.html',
             rendered_html=(
                     html_output_folder / 'mock-privileged-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 202 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 223 + (pbm_px * 2))
         ),
         'public_banner': RenderConfig(
             html_template=templates_folder / 'mock-public-banner.html',
             rendered_html=(
                     html_output_folder / 'mock-public-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 148 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 169 + (pbm_px * 2))
         )
     }
     # Render Templates
