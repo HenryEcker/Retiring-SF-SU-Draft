@@ -25,8 +25,7 @@
 <body>
 <!-- privileged banner -->
 <div>
-    <aside class="s-notice s-notice__info post-notice js-post-notice mb16"
-           role="status">
+            <aside class="s-notice s-notice__info post-notice js-post-notice mb16" role="status">
         <div class="d-flex fd-column fw-nowrap">
             <div class="d-flex fw-nowrap">
                 <div class="flex--item wmn0 fl1 lh-lg">
@@ -36,39 +35,34 @@
                 </div>
             </div>
         </div>
-        <hr class="my12 outline-none baw0 bb bc-powder-400">
-        <div class="d-flex fw-nowrap fc-black-600">
-            <div class="flex--item mr8">
-                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18"
-                     height="18" viewBox="0 0 18 18">
-                    <path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path>
-                </svg>
-            </div>
-            <div class="flex--item lh-md">
-                <p class="mb0">
-                    {{ reasons['Public user guidance'] }}
-                </p>
-                <p class="mb0 mt6">Closed <span title="2022-05-12 17:33:51Z"
-                                                class="relativetime">[Time] ago</span>
-                    by
-                    <a href="/null">Anon-User 1</a>,
-                    <a href="/null">Anon-User 2</a>,
-                    <a href="/null">Anon-User 3</a>.</p>
+            <hr class="my12 outline-none baw0 bb bc-powder-400">
+        <div class="fw-nowrap fc-black-600">
+            <div class="d-flex fd-column lh-md">
+                <div class="mb0 d-flex">
+                        <div class="flex--item mr8">
+                            <svg aria-hidden="true" class="svg-icon iconLightbulb" width="18" height="18" viewBox="0 0 18 18"><path d="M15 6.38A6.48 6.48 0 0 0 7.78.04h-.02A6.49 6.49 0 0 0 2.05 5.6a6.31 6.31 0 0 0 2.39 5.75c.49.39.76.93.76 1.5v.24c0 1.07.89 1.9 1.92 1.9h2.75c1.04 0 1.92-.83 1.92-1.9v-.2c0-.6.26-1.15.7-1.48A6.32 6.32 0 0 0 15 6.37ZM4.03 5.85A4.49 4.49 0 0 1 8 2.02a4.48 4.48 0 0 1 5 4.36 4.3 4.3 0 0 1-1.72 3.44c-.98.74-1.5 1.9-1.5 3.08v.1H7.2v-.14c0-1.23-.6-2.34-1.53-3.07a4.32 4.32 0 0 1-1.64-3.94ZM10 18a1 1 0 0 0 0-2H7a1 1 0 1 0 0 2h3Z"></path></svg>
+                        </div>
+                    <p>{{ reasons['Public user guidance'] }}</p>
+                </div>
+                    <div class="mb0 mt6 d-flex">
+                            <div class="flex--item mr8">
+                                <svg aria-hidden="true" class="svg-icon iconEyeOff" width="18" height="18" viewBox="0 0 18 18"><path d="m5.02 9.44-2.22 2.2C1.63 10.25 1 9 1 9s3-6 8.06-6c.75 0 1.46.14 2.12.38L9.5 5.03a4.01 4.01 0 0 0-4.48 4.41Zm2.03 3.05A3.99 3.99 0 0 0 13 9c0-.73-.2-1.41-.54-2l-1.51 1.54a2 2 0 0 1-2.38 2.42l-1.52 1.53Zm7.11-7.22A14.8 14.8 0 0 1 17 9s-3 6-7.94 6c-1.31 0-2.48-.4-3.5-1l-1.97 2L2 14.41 14.59 2 16 3.41l-1.84 1.86Z"></path></svg>
+                            </div>
+                        <p class="">Closed <span title="" class="relativetime">[Time] ago</span> by <a href="/null">Anon-User 1</a>, <a href="/null">Anon-User 2</a>, <a href="/null">Anon-User 3</a>.</p>
+                    </div>
+                <div class="ml24 pl2">
 
-                <p class="mb0 mt6 fs-fine fc-black-500">(Viewable by the post
-                    author and users with the close/reopen
-                    votes
-                    privilege)</p>
+                        <p class="mb0 mt6 fs-fine fc-black-500">(List of close voters is only viewable by users with the close/reopen votes privilege)</p>
+                </div>
             </div>
         </div>
-        <div class="mt24 d-flex gsx gs8">
-            <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post"
-               href="/edit">
-                Edit question
-            </a>
-        </div>
-    </aside>
+            <div class="mt24 d-flex gsx gs8">
+                    <a class="s-btn s-btn__outlined flex--item js-post-notice-edit-post" href="/edit">
+                        Edit question
+                    </a>
+            </div>
+</aside>
 
-</div>
+    </div>
 </body>
 </html>
