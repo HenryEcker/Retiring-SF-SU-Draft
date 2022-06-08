@@ -26,7 +26,7 @@ Reminder that there are __5 fields__ that need to be set for this new combined r
 > 2. **Usage guidance** - this tells close voters when to use this close reason. It should clarify any edge cases and help voters feel certain they're choosing the correct reason.
 > 3. **Post notice close description** - visible to all users. This is a general note about why the question was closed. It can include links to resources that explain the site's policy. It should always start and end with the same thing "This question was closed because it is ... It is not currently accepting answers."
 > 4. **Post owner guidance** - this additional information appears in the post notice but only for the asker of the question. It should contain detailed information about how they can improve their post (if possible) and may also include links to help here on meta or in the [help center](https://stackoverflow.com/help).
-> 5. **Privileged user guidance** - this additional information appears in the post notice but only for users with the "cast close and reopen votes" [privilege](https://stackoverflow.com/help/privileges/close-questions). It is designed to help them know how to guide the asker in improving their question or inform them when the question should be reopened.
+> 5. **Public user guidance** - this additional information appears in the post notice but only for users with the "cast close and reopen votes" [privilege](https://stackoverflow.com/help/privileges/close-questions). It is designed to help them know how to guide the asker in improving their question or inform them when the question should be reopened.
 
 You can review our current closure reasons with [this SEDE query](https://data.stackexchange.com/stackoverflow/query/1573733).
 

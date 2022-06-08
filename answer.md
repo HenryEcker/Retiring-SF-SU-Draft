@@ -18,7 +18,7 @@ If there are issues that need to be addressed please leave a comment so the char
 | Usage guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). | 162 |
 | Post notice close description | **Closed.** This question is [not about programming or software development](/help/closed-questions). It is not currently accepting answers. | 140 |
 | Post owner guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on [another Stack Exchange site](https://stackexchange.com/sites), but be sure to read the on-topic page for the site you choose before posting. | 397 |
-| Privileged user guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). If you believe the question is on-topic on [another Stack Exchange site](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to be answered. | 350 |
+| Public user guidance | This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic). If you believe the question is on-topic on [another Stack Exchange site](https://stackexchange.com/sites) you can leave a comment to explain where the question may be able to be answered. | 350 |
 
 ---
 
@@ -31,7 +31,7 @@ Post Owners would see the following message:\
 [![Post owner guidance][2]][2]
 
 Privileged Users would see the following:\
-[![Privileged user guidance][3]][3]
+[![Public user guidance][3]][3]
 
 Anonymous Users and users with less than 3000 reputation would see the following:\
 [![Every user guidance][4]][4]

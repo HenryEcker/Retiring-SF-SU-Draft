@@ -26,7 +26,7 @@ def build_and_validate_reasons() -> dict:
         'Usage guidance': f'{topic}.',
         'Post notice close description': f'**Closed.** This question is [{reason.lower()}](/help/closed-questions). It is not currently accepting answers.',
         'Post owner guidance': f'{topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
-        'Privileged user guidance': f'{topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
+        'Public user guidance': f'{topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
     }
 
     # Ensure reasons are correct length
@@ -34,7 +34,7 @@ def build_and_validate_reasons() -> dict:
     assert len(reasons['Usage guidance']) <= 500
     assert len(reasons['Post notice close description']) <= 500
     assert len(reasons['Post owner guidance']) <= 500
-    assert len(reasons['Privileged user guidance']) <= 500
+    assert len(reasons['Public user guidance']) <= 500
     return reasons
 
 
@@ -131,7 +131,7 @@ def main() -> None:
             rendered_html=(
                     html_output_folder / 'mock-public-banner-rendered.html'
             ),
-            output_img_size=(694 + (pbm_px * 2), 148 + (pbm_px * 2))
+            output_img_size=(694 + (pbm_px * 2), 207 + (pbm_px * 2))
         )
     }
     # Render Templates
