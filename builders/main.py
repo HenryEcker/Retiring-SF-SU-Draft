@@ -18,15 +18,15 @@ class RenderConfig:
 
 def build_and_validate_reasons() -> dict:
     reason = 'Not about programming or software development'
-    topic = 'This question does not appear to be about [a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic)'
+    topic = '[a specific programming problem, a software algorithm, or software tools primarily used by programmers](/help/on-topic)'
     another_site = '[another Stack Exchange site](https://stackexchange.com/sites)'
 
     reasons = {
         'Brief Description': reason,
-        'Usage guidance': f'{topic}. Do not use this close reason for questions that are on-topic for $SiteName, even if it would also be on-topic on {another_site}. Questions _about_ $SiteName itself should be migrated to [Meta $SiteName](/help/whats-meta) instead.',
+        'Usage guidance': f'Use this close reason if the question is not about {topic}. Do not use this close reason for questions that are on-topic for $SiteName, even if it would also be on-topic on {another_site}. Questions _about_ $SiteName itself should be migrated to [Meta $SiteName](/help/whats-meta) instead.',
         'Post notice close description': f'**Closed.** This question is [{reason.lower()}](/help/closed-questions). It is not currently accepting answers.',
-        'Post owner guidance': f'{topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
-        'Public user guidance': f'{topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
+        'Post owner guidance': f'This question does not appear to be about {topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
+        'Public user guidance': f'This question does not appear to be about {topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
     }
 
     # Ensure reasons are correct length
