@@ -23,7 +23,7 @@ def build_and_validate_reasons() -> dict:
 
     reasons = {
         'Brief Description': reason,
-        'Usage guidance': f'{topic}. Do not use this close reason for questions that are on-topic for $SiteName, even if it would be on-topic on {another_site} as well. Questions _about_ $SiteName itself should be migrated to [Meta $SiteName](/help/privileges/participate-in-meta) instead.',
+        'Usage guidance': f'{topic}. Do not use this close reason for questions that are on-topic for $SiteName, even if it would also be on-topic on {another_site}. Questions _about_ $SiteName itself should be migrated to [Meta $SiteName](/help/whats-meta) instead.',
         'Post notice close description': f'**Closed.** This question is [{reason.lower()}](/help/closed-questions). It is not currently accepting answers.',
         'Post owner guidance': f'{topic}. You can edit the question so it’s [on-topic](/help/on-topic) or see if it can be answered on {another_site}, but be sure to read the on-topic page for the site you choose before posting.',
         'Public user guidance': f'{topic}. If you believe the question is on-topic on {another_site} you can leave a comment to explain where the question may be able to be answered.'
